@@ -50,7 +50,7 @@ foreach ($check AS $domain) {
 
 	sleep(random_int($delay_min, $delay_max));
 }
-var_dump($alerts);
+
 if (!count($alerts)) {
 	// WE DIDN'T FIND ANYTHING, CAN EXIT
 	exit;
