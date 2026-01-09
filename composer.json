@@ -1,0 +1,16 @@
+{
+  "php": "^8.3",
+  "require": {
+    "ext-curl": "*",
+    "ext-dom": "*",
+    "ext-json": "*",
+    "ext-libxml": "*",
+    "chrome-php/chrome": "^1.14",
+    "cjrasmussen/autoload": "^1.0",
+    "cjrasmussen/objectify": "^1.0",
+    "cjrasmussen/slack-api": "^1.1"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
+  }
+}
