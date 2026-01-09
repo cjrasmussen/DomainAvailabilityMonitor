@@ -65,9 +65,6 @@ $blocks[] = [
 		'text' => 'Domain Availability Check',
 	],
 ];
-$blocks[] = [
-	'type' => 'divider',
-];
 
 // BUILD THE CONTENT
 $elements = [];
