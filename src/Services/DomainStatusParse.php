@@ -19,6 +19,6 @@ class DomainStatusParse
 		$priceElementQuery = '//*/div[@id="' . $priceElementId . '"]/span[@class="childContent"]/small';
 		$priceElement = $xpath->query($priceElementQuery);
 
-		return (($priceElement) && ($priceElement->item(0)->textContent === 'registered'));
+		return (($priceElement) && ($priceElement->item(0)->textContent === 'unavailable'));
 	}
 }
